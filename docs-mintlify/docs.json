@@ -9,88 +9,48 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "TypeScript",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "typescript/overview",
-              "typescript/examples",
-              "typescript/tutorials",
-              "typescript/migration_guide",
-              "typescript/CHANGELOG"
-            ]
-          },
-          {
-            "group": "Modules",
-            "pages": [
-              "typescript/modules/agents",
-              "typescript/modules/workflows",
-              "typescript/modules/backend",
-              "typescript/modules/templates",
-              "typescript/modules/memory",
-              "typescript/modules/emitter",
-              "typescript/modules/serialization",
-              "typescript/modules/tools",
-              "typescript/modules/cache",
-              "typescript/modules/logger",
-              "typescript/modules/version",
-              "typescript/modules/errors"
-            ]
-          },
-          {
-            "group": "Others",
-            "pages": [
-              "typescript/integrations"
-            ]
-          }
+        "group": "Introduction",
+        "pages": [
+          "introduction/welcome",
+          "introduction/quickstart"
         ]
       },
       {
-        "tab": "Python",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "python/overview",
-              "python/examples",
-              "python/tutorials",
-              "python/CHANGELOG"
-            ]
-          },
-          {
-            "group": "Modules",
-            "pages": [
-              "python/modules/agents",
-              "python/modules/workflows",
-              "python/modules/backend",
-              "python/modules/templates",
-              "python/modules/memory",
-              "python/modules/emitter",
-              "python/modules/events",
-              "python/modules/serialization",
-              "python/modules/tools",
-              "python/modules/cache",
-              "python/modules/logger",
-              "python/modules/version",
-              "python/modules/errors"
-            ]
-          },
-          {
-            "group": "Others",
-            "pages": [
-              "python/integrations"
-            ]
-          }
+        "group": "Core Concepts",
+        "pages": [
+          "modules/agents",
+          "modules/workflows",
+          "modules/backend",
+          "modules/templates",
+          "modules/memory",
+          "modules/emitter",
+          "modules/serialization",
+          "modules/tools",
+          "modules/cache",
+          "modules/logger",
+          "modules/errors"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/slack-integration",
+          "guides/beeai-platform-integration"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "contribute"
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/beeai_framework_light.svg",
-    "dark": "/logo/beeai_framework_dark.svg"
+    "light": "/logo/beeai-framework-light.svg",
+    "dark": "/logo/beeai-framework-dark.svg"
   },
   "navbar": {
     "links": [
@@ -109,7 +69,7 @@
     "socials": {
       "bluesky": "https://bsky.app/profile/beeaiagents.bsky.social",
       "youtube": "https://www.youtube.com/@BeeAIAgents",
-      "discord": "https://discord.gg/AZFrp3UF5k",
+      "discord": "https://discord.gg/NradeA6ZNF",
       "github": "https://github.com/i-am-bee/beeai-framework"
     }
   }
